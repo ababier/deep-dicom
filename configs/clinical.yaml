@@ -1,0 +1,7 @@
+type: clinical
+
+ct: true
+dose: true
+structure_contours:
+  - ALL
+

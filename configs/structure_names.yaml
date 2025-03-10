@@ -1,0 +1,19 @@
+mapping:
+  bowel_sm:
+  - bowel_sm_cbct
+  - bowel_sm_planct
+  bowelsmobs:
+  - bowelsmobs1
+  - bowelsmobs2
+  lung_l:
+  - lung_l
+  lung_r:
+  - lung_r
+  roi:
+  - roi
+  stomach_duo:
+  - stomach_duo_cbct
+  - stomach_duo_planct
+  stomachduoobs:
+  - stomachduoobs1
+  - stomachduoobs2

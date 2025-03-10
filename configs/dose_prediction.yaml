@@ -1,0 +1,23 @@
+type: dose_prediction
+
+inputs:
+  - name: ct
+  - name: structure_masks
+    sub_features:
+      - bowel_sm
+      - bowelsmobs
+      - lung_l
+      - lung_r
+      - roi
+      - stomach_duo
+      - stomachduoobs
+
+outputs:
+  - name: dose
+
+mandatory_features:
+  - name: ct
+  - name: dose
+  - name: structure_masks
+    sub_features:
+      - stomach_duo
